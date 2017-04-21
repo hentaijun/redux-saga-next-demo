@@ -1,0 +1,30 @@
+{
+  "name": "nextdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test":"babel-node model/sagas.spec.js | tap-spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^2.0.1",
+    "next-redux-wrapper": "^1.0.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "redux-saga": "^0.14.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
